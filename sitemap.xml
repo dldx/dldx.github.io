@@ -3,62 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//dldx.org/posts/hello/</loc>
+    <loc>https://dldx.org/posts/hello/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>//dldx.org/about/</loc>
+    <loc>https://dldx.org/about/</loc>
   </url>
   
   <url>
-    <loc>//dldx.org/posts/computer-vision/</loc>
+    <loc>https://dldx.org/posts/computer-vision/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>//dldx.org/categories/</loc>
+    <loc>https://dldx.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/tags/computer-vision/</loc>
-    <lastmod>2018-06-23T05:58:17+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//dldx.org/tags/explainers/</loc>
+    <loc>https://dldx.org/tags/computer-vision/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/tags/machine-learning/</loc>
+    <loc>https://dldx.org/tags/explainers/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/tags/misc./</loc>
+    <loc>https://dldx.org/tags/machine-learning/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/posts/</loc>
+    <loc>https://dldx.org/tags/misc./</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/tags/</loc>
+    <loc>https://dldx.org/posts/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//dldx.org/</loc>
+    <loc>https://dldx.org/tags/</loc>
+    <lastmod>2018-06-23T05:58:17+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dldx.org/</loc>
     <lastmod>2018-06-23T05:58:17+01:00</lastmod>
     <priority>0</priority>
   </url>
