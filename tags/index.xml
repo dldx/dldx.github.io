@@ -6,9 +6,47 @@
     <description>Recent content in Tags on Tangled up in data</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <copyright>Except where otherwise noted, all content is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution 4.0 International License&lt;/a&gt;. You are welcome to reuse my work elsewhere, but please let me know in advance and credit me.</copyright>
+    <lastBuildDate>Sat, 23 Jun 2018 05:58:17 +0100</lastBuildDate>
     
 	<atom:link href="//dldx.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>//dldx.org/tags/computer-vision/</link>
+      <pubDate>Sat, 23 Jun 2018 05:58:17 +0100</pubDate>
+      
+      <guid>//dldx.org/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainers</title>
+      <link>//dldx.org/tags/explainers/</link>
+      <pubDate>Sat, 23 Jun 2018 05:58:17 +0100</pubDate>
+      
+      <guid>//dldx.org/tags/explainers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>//dldx.org/tags/machine-learning/</link>
+      <pubDate>Sat, 23 Jun 2018 05:58:17 +0100</pubDate>
+      
+      <guid>//dldx.org/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc.</title>
+      <link>//dldx.org/tags/misc./</link>
+      <pubDate>Sat, 23 Jun 2018 05:58:17 +0100</pubDate>
+      
+      <guid>//dldx.org/tags/misc./</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

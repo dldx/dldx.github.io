@@ -3064,7 +3064,7 @@ hr {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #fff; }
 
-/* 
+/*
    Figures and images
    ========================================================================== */
 figure {
@@ -3106,7 +3106,7 @@ figure {
 svg:not(:root) {
   overflow: hidden; }
 
-/* 
+/*
    Buttons
    ========================================================================== */
 .btn, .read-more-header a, #goog-wm-sb {
@@ -3177,7 +3177,7 @@ svg:not(:root) {
     background-color: #fff;
     color: #308cbc; }
 
-/* 
+/*
    Wells
    ========================================================================== */
 .well {
@@ -3758,7 +3758,7 @@ body {
   width: 100%;
   background-color: #e8e8e8; }
 
-/* 
+/*
    Main content
    ========================================================================== */
 .entry,
@@ -3805,7 +3805,7 @@ body {
     margin-bottom: 26px;
     margin-bottom: 1.625rem; }
 
-/* 
+/*
    Entry header
    ========================================================================== */
 .entry-header {
@@ -3931,7 +3931,7 @@ body {
     color: #fff;
     text-decoration: none; }
 
-/* 
+/*
    Single post and page
    ========================================================================== */
 .entry-meta {
@@ -4117,7 +4117,7 @@ header .entry-meta {
       .list-item:nth-child(2) {
         text-align: right; } }
 
-/* 
+/*
    Post index
    ========================================================================== */
 #post-index #main {
@@ -4137,7 +4137,8 @@ header .entry-meta {
   box-shadow: 0 0 0 0, 0 6px 12px rgba(34, 34, 34, 0.1);
   border-radius: 3px;
   margin-bottom: 20px;
-  padding: 25px 15px; }
+  padding: 25px 15px;
+  transition: box-shadow 1s, transform 1s; }
   @media only screen and (min-width: 48em) {
     #post-index article {
       padding: 30px; } }
@@ -4145,6 +4146,9 @@ header .entry-meta {
     #post-index article {
       margin-bottom: 30px;
       padding: 50px 80px; } }
+  #post-index article:hover {
+    box-shadow: 0 0 0 0, 0 12px 24px rgba(34, 34, 34, 0.05);
+    transform: scale(1.005, 1.005); }
 
 .entry-image-index {
   margin-top: -25px;
@@ -4166,7 +4170,7 @@ header .entry-meta {
   .entry-image-index img {
     border-radius: 3px 3px 0 0; }
 
-/* 
+/*
    Footer
    ========================================================================== */
 .footer-wrapper {
@@ -4183,7 +4187,7 @@ header .entry-meta {
   .footer-wrapper a {
     color: rgba(85, 85, 85, 0.8); }
 
-/* 
+/*
    Social share
    ========================================================================== */
 .socialcount {
@@ -4196,14 +4200,14 @@ header .entry-meta {
   .socialcount li > a {
     border-bottom-width: 0; }
 
-/* 
+/*
    Browser upgrade
    ========================================================================== */
 .upgrade {
   padding: 10px;
   text-align: center; }
 
-/* 
+/*
    Google Search
    ========================================================================== */
 #goog-fixurl ul {

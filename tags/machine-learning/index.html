@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Machine Learning &#8211; Tangled up in data</title>
+<meta name="description" content="">
+
+    
+
+
+
+
+
+<meta name="twitter:title" content="Machine Learning">
+<meta name="twitter:description" content="Taking the world apart, one graph at a time.">
+
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Machine Learning">
+<meta property="og:description" content="Taking the world apart, one graph at a time.">
+<meta property="og:url" content="//dldx.org/tags/machine-learning/">
+<meta property="og:site_name" content="Tangled up in data">
+
+
+
+  <meta property="og:updated_time" content="2018-06-23T05:58:17&#43;01:00"/>
+
+
+
+
+
+
+<link rel="canonical" href="//dldx.org/tags/machine-learning/">
+
+  <link href="//dldx.org/tags/machine-learning/index.xml" rel="alternate" type="application/rss+xml" title="Tangled up in data" />
+  <link href="//dldx.org/tags/machine-learning/index.xml" rel="feed" type="application/rss+xml" title="Tangled up in data" />
+
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="generator" content="Hugo 0.42.1" />
+
+<script src="/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<link rel="shortcut icon" href="/favicon.png">
+
+
+</head>
+
+<body id="post-index" >
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			
+				<li>
+					
+					<img src="/images/avatar.jpg" alt="Durand D&#39;souza's photo" class="author-photo">
+					
+					<h4>Durand D&#39;souza</h4>
+					<p>Freelance data journalist based in the UK</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				<li>
+					<a href="mailto:durand1@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="https://medium.com/@dldx"><i class="fa fa-fw fa-medium"></i> Medium</a>
+				</li>
+				<li>
+					<a href="https://github.com/dldx"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				<li>
+					<a href="https://instagram.com/durand.dsouza"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+			
+		</li>
+
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">All Posts</a></li>
+				<li><a href="/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul>
+</nav>
+
+<div class="entry-header">
+  
+  <div class="header-title">
+    <div class="header-title-wrap">
+		<h1><a href="/" title="Go to the homepage">Tangled up in data</a></h1>
+	  <h2>
+            
+            
+              Machine Learning
+            
+          </h2>
+    </div>
+  </div>
+</div>
+
+<div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/posts/computer-vision/" title="A Layman’s Guide to Computer Vision"><img src="https://cdn-images-1.medium.com/max/2000/1*sniXGf1bZHesUmN7ORtWYw.png" alt="A Layman’s Guide to Computer Vision"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2018-06-23 05:58:17 &#43;0100 BST"><a href="/posts/computer-vision/">Jun 23, 2018</a></time></span>
+        
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~7 minutes
+      </span>
+      
+    </div>
+    
+	<h1 class="entry-title"><a href="/posts/computer-vision/" rel="bookmark" title="A Layman’s Guide to Computer Vision" itemprop="url">A Layman’s Guide to Computer Vision</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>I  discovered <a href="https://arxiv.org/abs/1703.01041v1">this interesting
+study</a> on arXiv about metalearning. It’s a fascinating glimpse into the future of machine learning and
+while I had been expecting this for a while, to finally see some solid research
+is amazing! The researchers evolve a bunch of convolutional neural networks using
+a genetic algorithm to create an optimal network for image classification. To
+understand what the heck I’m talking about, read on!</p>
+
+<figure align="center">
+<img src="https://cdn-images-1.medium.com/max/1260/1*ukC1xoQymw3HLLCdlYRnMA.png" />
+<figcaption>A bunch of animals.</figcaption>
+</figure>
+
+<p>Let’s say that we have a collection of photographs of various animals and we
+want to know what is in each photo. The most basic thing we can do with the help
+of our own eyes, our brain and our memory is to look at a photo, see that it is
+of a dog and label it as “dog”. For a computer to do the very same task is an
+incredibly tricky process.</p>
+
+<p>A couple of decades ago, computer scientists tried to identify images
+programmatically by building a recipe to detect individual traits and put them
+together to predict what the photograph depicts. For example, a dog has fur, a
+long nose, big eyes, a long tongue, a tail, and so on. A cat has less fur, a
+rounder face, smaller eyes and a flatter nose. If you find these features in the
+photograph, then it must be a cat/dog/kangaroo. As you might imagine, this
+technique barely worked at all. If a photograph was taken at a different angle,
+the recipe would make no sense. Each animal would need its own particular recipe
+to be detected, different breeds or unkempt pets would be unidentifiable and it
+didn’t scale very well. The technique was expensive to develop and useless in
+practise.</p>
+
+<figure align="center">
+<img src="https://cdn-images-1.medium.com/max/1260/0*x4HFSEMuoAM_POKd." />
+<figcaption>A car hiding in a tree</figcaption>
+</figure>
+
+<p>Fast forward a decade or so, and scientists tried to generalise this process a
+bit. Instead of detecting noses, they would detect circular shapes. Instead of
+fur, they would detect lines or particular patterns. Then combinations of these
+features would be used to be more predictive. This worked better, but it still
+involved manually programming in specific shapes and features to detect. It also
+wasn’t always successful and sometimes failed impressively as above.</p>
+
+<p>Then in 1998, a completely new technique called Convolutional Neural Networks
+(CNNs) <a href="http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">came out</a>
+which tried to mimic how our brains process images. Instead of manually choosing
+features to be detected, the features would be automatically “learned” by a
+computer by feeding it a lot of images and the correct labels. The computer
+program would then calculate which features are most important and use them to
+classify photos. These features are basically simple mathematical filters that
+the image is passed through to simplify its structure into key components. By
+using multiple layers of features, more complex objects can be detected. Below,
+you can see how such a program might work. In the first layer, basic shapes are
+detected. In the second, these shapes are combined to build more complex ones,
+such as eyes and noses. And finally, in the third layer, these are combined into
+higher level objects, such as human faces!</p>
+
+<figure align="center">
+<img src="https://cdn-images-1.medium.com/max/1680/0*relYRmjE3RYCY0Sf." />
+<figcaption>Feature map in a modern CNN</figcaption>
+</figure>
+While the CNN developed in 1998 was very successful, especially at tasks such as
+handwriting recognition, it did require a huge amount of processing power and a
+large set of training data, two requirements which could not be easily fulfilled
+in 1999. So for more than a decade, this technique was effectively shelved while
+people continued to manually define features.
+
+And then finally in 2012, researchers at the Uni. of Toronto created
+[AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks).
+It used the same techniques of the original CNN, with a few changes, but on a
+much larger set of images. Instead of a few thousand, AlexNet was trained on 15
+million images. And instead of just a few filters, it computed hundreds. It blew
+the competition out of the park when it was released. All programmers now had to
+do was design the basic flow of the network and choose the building blocks and
+the neural network would figure out the rest.
+
+In the span of 30 years, computer vision technology improved at a snail’s pace,
+but AlexNet changed all that. Before 2012, *1 in every 4* images was incorrectly
+identified. AlexNet reduced that down to *1 in every 7*. Since then, the error
+has come down to *1 in every 25* images (eg. in Google’s Inception network).
+That accuracy is actually better than the vast majority of humans! And that
+brings us to this paper.
+
+<figure align="center">
+<img src="https://cdn-images-1.medium.com/max/2000/0*lxFzfqV5gexWkqxn." />
+<figcaption>Google’s Inception V3 network. State-of-the-art in image classification, for
+now.</figcaption>
+</figure>
+
+<p>All the improvements in the last five years have been down to tweaking the
+neural networks slightly, either by adding new mathematical functions, changing
+the order and combination of filters or increasing the level of detail captured
+by filters. These “macroparameters” can be tweaked endlessly to get the best
+results but they require a bit of intuition to get right. The researchers in
+this paper decided to automate that last step.</p>
+
+<figure align="center">
+<img src="https://cdn-images-1.medium.com/max/1260/1*n1nWfw-qsp99E2ngefVh5A.png" />
+<figcaption>Relevant XKCD ([CC-by-SA-NC Randall
+Munroe](https://xkcd.com/534/))</figcaption>
+</figure>
+
+<p>Instead of tediously designing a new network and manually combining different
+functions and filters, they simply gave a genetic machine learning algorithm a
+task — to minimise the identification error — and gave it the building blocks.
+They then let it run for a few weeks on a fast computer. It goes ahead, builds a
+basic neural network and computes the error in its image recognition. It then
+makes a few changes, and computes a new error. If the error is lower, it adopts
+that design, and so on and so forth. In fact, it improves much like biological
+evolution, through mutation, reproduction and survival.</p>
+
+<p>If you actually made it all the way to the end of this very long post, then
+thank you for reading! You’ll no doubt still be wondering why I find this so
+cool. And the reason is that not only does this paper shine a spotlight on how
+far we (well… brainy guys and gals) have come with artificial intelligence, but
+also how our world will be shaped by it in the future. We are at the point where
+a stupid monkey like me can play around with technology that confounded
+thousands of researchers for decades. Someone with a thousand pounds and no
+prior knowledge of artificial intelligence can achieve what took millions of
+research hours in the past. All we need is a data set and a clever idea and we
+can let AI do the hard work! I think that is both bloody impressive and quite
+frightening! We’re not quite there yet but there will come a point when AI will
+replace the computer scientists who created them so it would be wise if started
+planning for that future
+<a href="https://www.bostonglobe.com/ideas/2016/02/24/robots-will-take-your-job/5lXtKomQ7uQBEzTJOXT7YO/story.html">now</a>.</p>
+
+<p>In the not-too-distant future, I can imagine a scenario where anyone who wanted
+to make their own movie could simply write a movie script with some cues and
+stylistic elements, pass it to an AI who then automatically creates the
+soundtrack, synthesises the speech, directs a bunch of 3d generated models, adds
+some special effects and renders a complete photo-realistic movie. If something
+wasn’t quite right, you could go in and tweak it. When the film camera was
+invented in the 1880s, people didn’t predict how ubiquitous it would become.
+When the electric guitar was invented, engineers tried their hardest to remove
+the distortions it created, yet rock music today is built on that very sound
+base. I may well be wrong about the future of AI but I can’t wait to see what
+happens! <strong>hopefully not skynet</strong></p>
+
+<figure align="center">
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/LY7x2Ihqjmc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<figcaption>This film was written by an LSTM neural network</figcaption>
+</figure>
+
+<p><strong>Further reading, if your interest is piqued:</strong></p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=u6aEYuemt0M">This fantastic talk</a> <em>by Andrej
+Karpathy, where I got most of my material from.</em></li>
+<li><a href="https://youtu.be/40riCqvRoMs">A TED talk by Fei Fei Li</a>, who established the
+ImageNet database</li>
+<li><a href="https://aiexperiments.withgoogle.com/">AI experiments </a> <em>by Google</em></li>
+<li><em>Siraj Raval’s over-the-top</em> <a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A">Youtube
+channel</a></li>
+<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers</a> <em>,
+which showcases some of the coolest AI stuff out there!</em></li>
+<li><a href="http://colah.github.io/posts/2014-07-Conv-Nets-Modular/">Chris Olah’s blog</a> <em>on
+neural networks</em></li>
+</ul>
+
+<p><strong>Animal photographs:</strong></p>
+
+<ul>
+<li>Meerkats: <a href="https://www.pexels.com/u/mikebirdy/">CC-0 Mike Birdy</a></li>
+<li>Dogs &amp; Horse: <a href="https://www.pexels.com/u/hilaryh/">CC-0 Hilary Halliwell</a></li>
+<li>Leopard:
+<a href="http://www.pixnio.com/fauna-animals/cheetahs-leopards-jaguars-panthers-pictures/leopard-wild-cat-animal-animal-photography-cat">CC-0</a></li>
+<li>Goose:
+<a href="http://www.pixnio.com/fauna-animals/birds/goose-pictures/goose-plumage-animal-photography-bird">CC-0</a></li>
+<li>Macaque: <a href="https://commons.wikimedia.org/wiki/File:Macaca_nigra_self-portrait_large.jpg">Public
+Domain</a></li>
+<li>Duck: <a href="https://www.pexels.com/u/martindickson/">CC-0 Martin Dickinson</a></li>
+<li>Spider: <a href="https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Animals/Arachnids#/media/File:Phidippus_audax_male.jpg">CC-by-SA Thomas
+Shahan</a></li>
+<li>Jaguar: <a href="https://www.flickr.com/photos/ucumari/3653240665">CC-by-SA-ND Valerie</a></li>
+<li>Dog: <a href="https://www.pexels.com/u/pixabay/">CC-0 Pixabay</a></li>
+<li>Jaguar: <a href="https://www.pexels.com/photo/africa-zoo-tiger-cat-9322/">CC-0
+Skitterphoto</a></li>
+</ul>
+
+<p><em>Feel free to share &amp; modify this article under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+Share-Alike</a> licence and let me
+know if there are corrections to be made!</em></p>
+
+  </div>
+</article>
+
+
+
+
+
+</div>
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span><p>
+    Except where otherwise noted, all content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. You are welcome to reuse my work elsewhere, but please let me know in advance and credit me.
+</p>
+     Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the
+     <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.
+</span>
+
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/js/scripts.min.js"></script>
+
+
+
+</body>
+</html>
+
