@@ -66,8 +66,8 @@
 		background: #fff;
 		top: 10px;
 		left: 16%;
-		box-shadow: 
-			0 10px 0 #fff, 
+		box-shadow:
+			0 10px 0 #fff,
 			0 20px 0 #fff;
 	}
 
@@ -84,13 +84,13 @@
 
 		h4 {
 			margin:0;
-			padding: 15px 20px 0;
+			padding: 10px 20px 0;
 			color: rgba(#fff,0.9);
 		}
 
 		p {
 			margin: 0;
-			padding: 15px 20px;
+			padding: 10px 20px;
 			@include font-rem(14);
 			color: rgba(#fff,0.8);
 			font-weight: 300;
@@ -105,7 +105,7 @@
 		a {
 			display: block;
 			position: relative;
-			padding: 15px 20px;
+			padding: 10px 20px;
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
@@ -148,8 +148,8 @@
 		margin: 5px 0 0 0;
 		position: relative;
 		width: 100%;
-		max-height: 90%;
-		overflow-y: auto;
+		// max-height: 90%;
+	  overflow-y: hidden;
 	  overflow-x: hidden;
 		opacity: 0;
 		pointer-events: none;
@@ -196,10 +196,10 @@
 	}
 }
 
-/* 
+/*
 When a submenu is opened, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */

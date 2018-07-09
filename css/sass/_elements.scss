@@ -82,7 +82,7 @@ svg:not(:root) {
 
 .btn {
   display: inline-block;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   padding: 8px 20px;
   @include font-rem(14);
   background-color: $primary;
