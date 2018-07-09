@@ -528,6 +528,18 @@ header .entry-meta {
 	text-align: center;
 	color: lighten($text-color,20);
 
+		@media #{$medium} {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		@media #{$large} {
+			max-width: 800px;
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 	a {
 		color: lighten($text-color,20);
 	}
